@@ -1,20 +1,20 @@
 const defaultConfig = {
-	username: "Excalith",
+	username: "bruno",
 	theme: {
-		backgroundColor: "#121317",
-		windowColor: "#1e212b",
-		glowColor: "#6b5cb157",
-		white: "#e2e2e2",
+		backgroundColor: "#1e212b",
+		windowColor: "#282a36",
+		glowColor: "#bd93f945",
+		white: "#bfbfbf",
 		gray: "#97989d",
-		black: "#16161e",
-		red: "#ec6183",
-		green: "#2ed8a2",
-		yellow: "#e8b195",
-		blue: "#2bc3de",
-		cyan: "#62e0e2",
-		magenta: "#e069aa",
-		violet: "#d1aff8",
-		orange: "#ff8800"
+		black: "#000000",
+		red: "#ff5555",
+		green: "#50fa7b",
+		yellow: "#f1fa8c",
+		blue: "#bd93f9",
+		magenta: "#ff79c6",
+		cyan: "#8be9fd",
+		violet: "#bd93f9",
+		orange: "#ffb86c"
 	},
 	wallpaper: {
 		url: "",
@@ -57,13 +57,13 @@ const defaultConfig = {
 		]
 	},
 	urlLaunch: {
-		target: "_self",
+		target: "_blank",
 		defaultColor: "white",
 		hoverColor: "violet"
 	},
 	search: {
 		default: "https://google.com/search?q=",
-		target: "_self",
+		target: "_blank",
 		shortcutRegex: "([A-Za-z0-9]+) (.*)",
 		shortcuts: [
 			{
@@ -112,13 +112,8 @@ const defaultConfig = {
 				links: [
 					{
 						name: "Portfolio",
-						url: "https://cancellek.com",
+						url: "https://brunocecilio.com",
 						icon: "mdi:web"
-					},
-					{
-						name: "Keybase",
-						url: "https://keybase.io/",
-						icon: "fa-brands:keybase"
 					},
 					{
 						name: "GPT",
@@ -126,9 +121,9 @@ const defaultConfig = {
 						icon: "simple-icons:openai"
 					},
 					{
-						name: "OCI",
-						url: "https://www.oracle.com/cloud/",
-						icon: "simple-icons:oracle"
+						name: "Bing Chat",
+						url: "https://www.bing.com/search?q=Bing+AI&showconv=1&FORM=hpcodx",
+						icon: "bi:bing"
 					}
 				]
 			},
@@ -151,11 +146,6 @@ const defaultConfig = {
 						name: "Dev.to",
 						url: "https://dev.to",
 						icon: "material-symbols:logo-dev"
-					},
-					{
-						name: "Stack Overflow",
-						url: "https://stackoverflow.com/",
-						icon: "mdi:stack-overflow"
 					}
 				]
 			},
@@ -165,24 +155,14 @@ const defaultConfig = {
 				align: "left",
 				links: [
 					{
-						name: "Twitter",
-						url: "https://twitter.com",
-						icon: "mdi:twitter"
-					},
-					{
-						name: "Mastodon",
-						url: "https://mastodon.social/",
-						icon: "ri:mastodon-fill"
+						name: "Instagram",
+						url: "https://instagram.com/",
+						icon: "mdi:instagram"
 					},
 					{
 						name: "Reddit",
 						url: "https://reddit.com",
 						icon: "mdi:reddit"
-					},
-					{
-						name: "Polywork",
-						url: "https://polywork.com",
-						icon: "simple-icons:polywork"
 					}
 				]
 			},
@@ -192,78 +172,68 @@ const defaultConfig = {
 				align: "left",
 				links: [
 					{
-						name: "Polygon",
-						url: "https://polygon.com",
-						icon: "uil:polygon"
+						name: "Steam",
+						url: "https://store.steampowered.com/",
+						icon: "mdi:steam"
 					},
 					{
-						name: "IGN",
-						url: "https://ign.com",
-						icon: "mdi:currency-sign"
-					},
-					{
-						name: "RPS",
-						url: "https://rockpapershotgun.com/",
-						icon: "ph:toilet-paper-bold"
-					},
-					{
-						name: "80lv",
-						url: "https://80.lv/",
-						icon: "tabler:hand-rock"
+						name: "Epic",
+						url: "https://store.epicgames.com/pt-BR/",
+						icon: "simple-icons:epicgames"
 					}
 				]
 			},
 			{
-				title: "Science",
+				title: "Study",
 				color: "blue",
 				align: "left",
 				links: [
 					{
-						name: "PopSci",
-						url: "https://popsci.com/",
-						icon: "material-symbols:science"
+						name: "Alura",
+						url: "https://unibb.alura.com.br/",
+						icon: "teenyicons:screen-alt-outline"
 					},
 					{
-						name: "Space",
-						url: "fa6-solid:user-astronaut",
-						icon: "mdi:reddit"
+						name: "Gran",
+						url: "https://www.grancursosonline.com.br/aluno/espaco",
+						icon: "healthicons:g"
 					},
 					{
-						name: "NASA",
-						url: "https://blogs.nasa.gov/",
-						icon: "simple-icons:nasa"
-					},
-					{
-						name: "ESA",
-						url: "https://blogs.esa.int/",
-						icon: "mdi:black-mesa"
+						name: "UniBB",
+						url: "https://www.unibb.com.br/",
+						icon: "arcticons:bb"
 					}
 				]
 			},
 			{
-				title: "Tech",
+				title: "Watch",
 				color: "yellow",
 				align: "left",
 				links: [
 					{
-						name: "TechCrunch",
-						url: "https://techcrunch.com/",
-						icon: "game-icons:techno-heart"
+						name: "Youtube",
+						url: "https://www.youtube.com/",
+						icon: "mdi:youtube"
 					},
 					{
-						name: "Verge",
-						url: "https://www.theverge.com/",
-						icon: "arcticons:verge"
+						name: "Prime Video",
+						url: "https://www.primevideo.com/",
+						icon: "arcticons:amazon-prime-video"
 					},
 					{
-						name: "It's Foss",
-						url: "https://itsfoss.com/",
-						icon: "ri:mastodon-fill"
+						name: "Disney+",
+						url: "https://www.disneyplus.com/",
+						icon: "tabler:brand-disney"
 					},
 					{
-						name: "9To5 Linux",
-						url: "https://9to5linux.com/",
-						icon: "uil:linux"
+						name: "Star+",
+						url: "https://www.starplus.com/",
+						icon: "material-symbols:star-outline"
+					},
+					{
+						name: "Netflix",
+						url: "https://www.netflix.com/",
+						icon: "mdi:netflix"
 					}
 				]
 			}
