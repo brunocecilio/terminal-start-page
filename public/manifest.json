@@ -4,7 +4,7 @@
 	"display": "standalone",
 	"scope": "/",
 	"start_url": "/",
-	"name": "bruno start page",
+	"name": "terminal start page",
 	"short_name": "start page",
 	"description": "Terminal inspired start page",
 	"icons": [
