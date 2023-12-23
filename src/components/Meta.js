@@ -3,11 +3,11 @@ import Head from "next/head"
 import { useSettings } from "@/context/settings"
 
 const Meta = () => {
-	const [title, setTitle] = useState("Start Page")
+	const [title, setTitle] = useState("start page")
 	const { settings } = useSettings()
 
 	useEffect(() => {
-		setTitle(settings.username + " Start Page")
+		setTitle(settings.username + " start page")
 	}, [settings.username])
 
 	return (
@@ -16,6 +16,7 @@ const Meta = () => {
 			<meta name="description" content={`Browser start page for ${title}`} />
 			<meta name="viewport" content="width=device-width, initial-scale=1" />
 			<link rel="icon" href="/favicon.ico" />
+			<link rel="manifest" href="/manifest.json" />
 			<meta name="robots" content="noindex, nofollow"></meta>
 		</Head>
 	)

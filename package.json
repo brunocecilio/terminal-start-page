@@ -26,6 +26,7 @@
 		"ace-builds": "^1.15.3",
 		"moment": "^2.29.4",
 		"next": "13.1.6",
+		"next-pwa": "^5.6.0",
 		"one-theme-ace": "^0.5.0",
 		"react": "18.2.0",
 		"react-ace": "^10.1.0",
